@@ -32,7 +32,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'next-cozy.s3.us-east-2.amazonaws.com',
-        pathname: '/**',  // Allow all paths under this domain
+        pathname: '/**',  // Allow all paths under this domain to view images
       },
     ],
   },
