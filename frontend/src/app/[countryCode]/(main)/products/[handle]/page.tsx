@@ -29,6 +29,7 @@ export async function generateStaticParams() {
   ).then((responses) =>
     responses.map(({ response }) => response.products).flat()
   )
+  console.log('PRODUCTS_MAIN', products)
 
   const staticParams = countryCodes
     ?.map((countryCode) =>
