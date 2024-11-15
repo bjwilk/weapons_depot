@@ -20,7 +20,7 @@ const StripeWrapper: React.FC<StripeWrapperProps> = ({
   const options: StripeElementsOptions = {
     clientSecret: paymentSession!.data?.client_secret as string | undefined,
   }
-
+console.log('SECRET', options.clientSecret)
   if (!stripeKey) {
     throw new Error(
       "Stripe key is missing. Set NEXT_PUBLIC_STRIPE_KEY environment variable."
