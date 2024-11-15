@@ -19,7 +19,7 @@ import MedusaCTA from "@modules/layout/components/medusa-cta"
                 className="txt-compact-xlarge-plus text-white hover:text-yellow-300 uppercase shadow-md font-bold"
   
               >
-                Weapons World
+                BLADE AND HONOR
               </LocalizedClientLink>
             </div>
             <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
